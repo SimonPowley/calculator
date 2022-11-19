@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #dcdcdc;
+}
+
+.calculator {
+    background-color: #002233;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 430px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, .5);
+}
+
+.screen {
+    background-color: #464622;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 230px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.result {
+    color: #ffffff;
+    height: 48px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 32px;
+}
+
+.input {
+    color: #ffffff;
+    height: 32px;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.num-pad {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border-radius: 10px;
+    width: 230px;
+    height:340px;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 2px;
+}
+
+button {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    transition-duration: .1s;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+#number-key {
+    background-color: #6666ff;
+}
+
+#number-key:hover {
+    background-color: #9999ff;
+}
+
+#operator-key {
+    background-color: #dd8844;
+}
+
+#operator-key:hover {
+    background-color: #eedd66;
+}
+
+#equal-key {
+    background-color: #00dd00;
+}
+
+#equal-key:hover {
+    background-color: #77ff77;
+}
+
+#delete-key {
+    background-color: #ff2233;
+}
+
+#delete-key:hover {
+    background-color: #ff7777;
+}
